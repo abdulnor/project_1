@@ -10,10 +10,23 @@
     {
       text-align: center;
     }
-    p
+    .p
     {
       text-align: center;
       font-size: 24px;
+    }
+    .first
+    {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    .left
+    {
+      margin-right: 0px;
+    }
+    .content
+    {
+      margin-left: 0px;
     }
     </style>
   </head>
@@ -21,7 +34,7 @@
     <headre>
 
       <h1 style="text-decoration: solid; text-align: center;">About Us</h1>  
-      <p>
+      <p class="p">
          A new publishing house that specialies in language , translation , eduacation <br>
          and humanties <br>
          We publish educational books , language textbooks , translation , poetry and <br>
@@ -33,5 +46,16 @@
       </p>
     </headre>
     <h1 style="text-align: center; margin-top: 50px;">Avaliable books</h1>
+    <div class="first" style="border: 5px solid rgb(83, 58, 58);">
+      <div class="left">
+        <div><img src="first_one.jpg" style="width: 50%; height: 50%;"></div>
+        <div class="content"> 
+          <h1>all the time </h1>
+          a modern day fairy tale about two <br> 
+          teenagers suffering from loss who <br>
+          find healing in one another <br>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
